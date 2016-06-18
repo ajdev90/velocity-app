@@ -1,8 +1,6 @@
 package com.ajdev.velocity.test1;
 
 import java.io.StringWriter;
-import java.util.HashMap;
-import java.util.Map;
 
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
@@ -12,6 +10,10 @@ import org.apache.velocity.runtime.resource.loader.FileResourceLoader;
 import org.codehaus.jettison.json.JSONArray;
 import org.codehaus.jettison.json.JSONObject;
 
+/**
+ * @author ajdev90
+ *
+ */
 public class VelocityHelper {
 
 	public static String getTemplate(JSONArray jsonArray, JSONObject jsonObject) {

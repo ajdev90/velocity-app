@@ -5,6 +5,10 @@ import java.util.Iterator;
 
 import com.google.gson.JsonArray;
 
+/**
+ * @author ajdev90
+ *
+ */
 public class VelJSONArrayIterator implements Iterator<Object> {
 
 	private final JsonArray jsonArray;

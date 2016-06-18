@@ -6,6 +6,10 @@ import java.util.Iterator;
 import org.codehaus.jettison.json.JSONArray;
 import org.codehaus.jettison.json.JSONException;
 
+/**
+ * @author ajdev90
+ *
+ */
 public class VelJSONArrayIterator implements Iterator<Object> {
 
 	private final JSONArray jsonArray;

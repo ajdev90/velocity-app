@@ -6,6 +6,10 @@ import java.util.Map.Entry;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
+/**
+ * @author ajdev90
+ *
+ */
 public class VelJSONObjectIerator implements Iterator<Object> {
 	private Iterator<Entry<String, JsonElement>> iterator;
 

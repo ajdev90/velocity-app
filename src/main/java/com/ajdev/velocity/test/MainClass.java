@@ -3,6 +3,10 @@ package com.ajdev.velocity.test;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
+/**
+ * @author ajdev90
+ *
+ */
 public class MainClass {
 
 	public static void main(String[] args) {

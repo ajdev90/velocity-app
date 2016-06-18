@@ -4,6 +4,10 @@ import org.codehaus.jettison.json.JSONArray;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 
+/**
+ * @author ajdev90
+ *
+ */
 public class MainClass {
 	public static void main(String[] args) {
 		System.out.println("inside mainclass");

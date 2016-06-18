@@ -4,6 +4,10 @@ import java.nio.channels.UnsupportedAddressTypeException;
 import java.util.Iterator;
 import org.codehaus.jettison.json.JSONObject;
 
+/**
+ * @author ajdev90
+ *
+ */
 public class VelJSONObjectIerator implements Iterator<Object> {
 
 	private final JSONObject jsonObject;
